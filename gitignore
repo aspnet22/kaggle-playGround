@@ -1,0 +1,33 @@
+
+# Ignore everything
+*
+
+# Don't ignore directories, so we can explicitly add specific files later
+!*/
+
+# Unignore Jupyter Notebooks
+!*.ipynb
+
+# Unignore README files
+!README.md
+
+# Ignore everything in the data folder
+data/
+
+# Unignore specific files in the data folder if needed
+#!data/your_specific_file.csv
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore other system-specific files
+Thumbs.db
